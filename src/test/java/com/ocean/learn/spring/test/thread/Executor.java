@@ -35,5 +35,7 @@ public class Executor {
 			});
 		}
 		System.out.println("here");
+		// 由于Thread.sleep(10000),线程依然没有停止，可以导出线程看一下哪些还在工作
+
 	}
 }
