@@ -25,7 +25,7 @@ public class Executor {
 						// System.out.println(a.length());
 					}
 					try {
-						Thread.sleep(100000);
+						Thread.sleep(10000);
 					} catch (InterruptedException e) {
 						e.printStackTrace();
 					}
@@ -34,5 +34,6 @@ public class Executor {
 				}
 			});
 		}
+		System.out.println("here");
 	}
 }
