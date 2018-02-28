@@ -4,6 +4,12 @@ import java.util.Random;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+/**
+ * 更多测试请看Executor2
+ * 
+ * @author ocean
+ *
+ */
 public class Executor {
 	public static volatile int a = 0;
 	// 有趣的测试
